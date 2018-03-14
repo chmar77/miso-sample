@@ -20,3 +20,15 @@ Input func s ->
       -- func = _tiTitle
       newTodoInput = Lens.set func (Entering s) (_todoInput model) 
 ```
+
+
+
+# Old 
+
+follow miso tutorial
+
+run python server in the build file
+
+~/projects/haskell/miso/app/.stack-work/dist/x86_64-linux/Cabal-1.24.0.0_ghcjs/build/app/app.jsexe$
+
+python -m SimpleHTTPServer
